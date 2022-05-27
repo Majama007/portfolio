@@ -19,18 +19,19 @@
       </header>
       <style>
       .card:hover{
-        box-shadow: 2px 0px 10px 1px wheat; ;
-        
-        -ms-transform: scale(1.2); /* IE 9 */
-        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        box-shadow: 2px 0px 10px 1px black; ;
+  
+        -webkit-transform: scale(1.2); 
         transform: scale(1.2);
+
+      
         }
-      .card {
-          
-          position:absolute; right:30px;
-          position:absolute; top:30px;
+      .card { 
+          position:sticky; right:30px;
+          position:fixed; top:30px;
           transition: transform .6s;
-          box-shadow: 0 4px 8px 0 rgba(56, 55, 55, 0.671);
+          top:0;
+          box-shadow: 0 4px 8px 0 black;
           max-width: 200px;
           height:420px;
           margin: auto;
@@ -89,9 +90,11 @@
    
 
 <body>
- <div class="stick"></div>v>
+ <div class="stick">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+   Itaque praesentium vel illum nihil dolores porro ex,<br>
+    iusto tempora delectus laboriosam tempore aliquid natus optio dolorem cum rerum quis hic soluta!</div>
 
- <div class="stick1"></di>
+ <div class="stick1"></div>
   <div class="card">
 
     <img src="lutho.jpg"  style="width: 127px;height: 130;border-radius: 100%; ">
@@ -99,9 +102,9 @@
     <p class="title">Web Develper</p>
     <p>Codetelligent</p>
     <div style="margin: 24px 0;">
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-linkedin"></a>
-      <a href="#" class="fa fa-instagram"></a>
+      <a href="http://facebook.com" class="fa fa-facebook"></a>
+      <a href="http://linkedin.com" class="fa fa-linkedin"></a>
+      <a href="http://instagram.com" class="fa fa-instagram"></a>
       <a href="#" class="fa fa-google"></a>
     </div>
     <p><button> <a href="..\Projects\index1.html"></a>Projects</button></p>

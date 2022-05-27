@@ -1,60 +1,80 @@
-.header {
-    text-align: left;
-    
-    background-position: center;
-    
-    padding: 20;
-  
-}
+
+ *{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+
+ .header {
+     text-align: left;
+     background-position: center;
+     padding: 20;
+   
+ }
+ .dropbtn:hover{opacity: 0.5;
+   box-shadow: 3px 3px 20px 1px grey;}
+ 
+   
+ .dropbtn {
+     transition: transform .9s;
+     background-color: grey;
+     color: rgba(146, 143, 143, 0.123);
+     padding: 16px;
+     height: 130px;
+     width: 180;
+     border: none;
+     cursor: pointer;
+     font-size: 20px;
+   }
+   .dropdown:hover{opacity: 0.5;
+     box-shadow: 6px 3px 25px 6px grey;
+ }
+   .dropdown { transition: transform .9s;
+     position: relative;
+     display: inline-block;
+   }
+   
+   .dropdown-content:hover{
+     -ms-transform: scale(1.2);
+     -webkit-transform: scale(1.2); 
+     transform: scale(1.2);
+     opacity: 1;
+     box-shadow: 6px 3px 25px 6px grey;
+   }
+   .dropdown-content {
+     transition: transform .9s;
+     display: none;
+     position: absolute;
+     background-color: lightgrey;
+     width: 180px; 
+     height: 130px;
+     font-size: 20px
+   }
+   
+   .dropdown-content a {
+     color: black;
+     padding: 14px 14px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .dropdown-content a:hover {background-color: gray;opacity: 1;
+     box-shadow: 6px 3px 25px 6px grey;}
+   
+   .dropdown:hover .dropdown-content {display: block;
+   }
+   
+   a {
+     display: block;
+     color: #000;
+     padding: 8px 16px;
+     text-decoration: none;
+   } 
+
 body{background-image: url(backgrnd.jpg);
-  background-size: 100% 100%;
+  background-size:  100%;
 }
 
-.dropbtn {
-    background-color: grey;
-    color: rgba(97, 97, 97, 0.123);
-    padding: 16px;
-    height: 130px;
-    width: 180;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: lightgrey;
-    width: 180px; 
-    height: 130px;
-    font-size: 20px
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 14px 14px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: gray}
-  
-  .dropdown:hover .dropdown-content {display: block;
-  }
-  
-  a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
+
   #collapseOne{color: blue;
  background-image: url(Screenshot.png);
  height: 440px;
+ width: 2px; ;
   }
-  card{width: 40px;}
