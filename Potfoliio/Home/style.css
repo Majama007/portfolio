@@ -3,16 +3,20 @@
 
 .header {
     text-align: left;
-    background: #2d5e53;
+   
     background-position: center;
-    background-image: url(binary.jpg);
+    
     padding: 20;
-    opacity: 0.2;
+  
 }
+.dropbtn:hover{opacity: 0.5;
+  box-shadow: 3px 3px 20px 1px grey;}
 
+  
 .dropbtn {
+  transition: transform .9s;
     background-color: grey;
-    color: rgba(97, 97, 97, 0.123);
+    color: rgba(146, 143, 143, 0.123);
     padding: 16px;
     height: 130px;
     width: 180;
@@ -20,13 +24,23 @@
     cursor: pointer;
     font-size: 20px;
   }
-  
-  .dropdown {
+  .dropdown:hover{opacity: 0.5;
+    box-shadow: 6px 3px 25px 6px grey;
+}
+  .dropdown { transition: transform .9s;
     position: relative;
     display: inline-block;
   }
   
+  .dropdown-content:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    
+    opacity: 1;
+    box-shadow: 6px 3px 25px 6px grey;}
   .dropdown-content {
+    transition: transform .9s;
     display: none;
     position: absolute;
     background-color: lightgrey;
@@ -42,7 +56,8 @@
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: gray}
+  .dropdown-content a:hover {background-color: gray;opacity: 1;
+    box-shadow: 6px 3px 25px 6px grey;}
   
   .dropdown:hover .dropdown-content {display: block;
   }
@@ -57,40 +72,73 @@
     background-size: 100% 100%;
     
     
-    }
+    
+    
+  }
+  
   
   footer {
     position: absolute;
     right: 0;bottom:0;left:0;
   }
   .fa {
-    padding: 30px;
-    font-size: 100px;
-    width: 18px;
+    
+   width: 5;
+   height: 20px;
+   font-size: 90px;
+   transition: transform .2s;
     text-align: center;
     text-decoration: none;
-    margin: 5px 40px;
-    border-radius: 50%;
+    margin: 1px;
+    border-radius: 80%
   }
   
   .fa:hover {
+    
+      -ms-transform: scale(1.2); 
+      -webkit-transform: scale(1.2); 
+      transform: scale(1.2);
       opacity: 1;
-      box-shadow: 9px 6px 50px 10px grey;
+      
   }
-  
+  .fa-facebook:hover{opacity: 1;
+    box-shadow: 6px 3px 25px 6px #3B5998;}
   .fa-facebook {
     background: #3B5998;
     color: white;
-  }
+    }
+
+.fa-linkedin:hover{opacity: 1;
+      box-shadow: 6px 3px 25px 6px #007bb5;}
  .fa-linkedin {
     background: #007bb5;
     color: white;
   }
+
+.fa-instagram:hover{opacity: 1;
+    box-shadow: 0px 0px 25px 6px #b90292;} 
 .fa-instagram {
-    background: #125688;
+    background:#b90292; ;
     color: white;
   }
+  
+  .fa-google:hover{opacity: 1;
+    box-shadow: 6px 3px 25px 6px #dd4b39;} 
 .fa-google {
       background: #dd4b39;
       color: white;
-     }   
+     }  
+.stick1{border: solid;
+      box-shadow: 6px 1px 5px 1px black;
+      padding: 130;
+      height: 60px;
+      width:140px;}
+  
+      .stick{border: solid;
+        box-shadow: 6px 1px 5px 1px black;
+        padding: 130;
+        height: 60px;
+        width:150px;
+        margin: 80;
+      }
+
