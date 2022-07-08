@@ -30,10 +30,10 @@
           position:sticky; right:40px;
           position:fixed; top:80px;
           transition: transform .5s;
-        
+          border:  rgb(27, 26, 32);
           box-shadow: 0 4px 8px 0 black;
           max-width: 300px;
-          height:350px;
+          height:390px;
           margin: auto;
           text-align: center;
           background: dark;
@@ -72,27 +72,20 @@
         
      
 img:hover{
-  box-shadow: 6px 3px 25px 6px black;
-  border: solid white;
+    box-shadow: 6px 3px 25px 6px black;
+    border: solid white;
     transition: transform .7s;
     width: 40px;
     -ms-transform: scale(1.5); 
-      -webkit-transform: scale(1.5); 
-      transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
       
   }
 
    
-        </style>
+</style>
+</head>
 
-
-
- </head>
-
-
-
- 
-   
 
 <body>
  
@@ -113,7 +106,7 @@ img:hover{
     </div>
 
     <button 
-       class="accordion"> <a href="..\Projects\index1.html"></a>Projects 
+       class="accordion">About 
       </button>
   </div>
  
@@ -121,24 +114,7 @@ img:hover{
   <h2>Welcome, <br>I am Lutho.<h/2>
 
 
-  
-       
-      <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-              panel.style.display = "none";
-            } else {
-              panel.style.display = "block";
-            }
-          });
-        }
-        </script> 
+   
 
 
 <footer>

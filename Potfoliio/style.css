@@ -150,7 +150,7 @@
         box-shadow: 6px 3px 15px 6px rgb(12, 12, 12);
         max-width: 400px;
         height:60px;
-        
+        font-size: larger;
         border: none;
         text-align: center;
         outline: none;
@@ -168,9 +168,8 @@
    font-size: 70px;
    width: 300px;
    position:fixed; top:250px;
-   position:fixed; right:500px;
-  
- }
+   position:fixed; right:645px;
+  }
           
       
       
