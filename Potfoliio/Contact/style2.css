@@ -144,7 +144,7 @@
       .accordion {
        
         transition: transform .1s;
-        background-color: rgb(49, 51, 61);
+        background-color: rgb(123, 124, 128);
         color: white;
         cursor: pointer;
         box-shadow: 6px 3px 15px 6px rgb(12, 12, 12);

@@ -16,7 +16,7 @@
     background-color: grey;
     color: rgba(146, 143, 143, 0.123);
     padding: 16px;
-    height: 130px;
+    height: 100px;
     width: 180;
     border: none;
     cursor: pointer;
@@ -35,9 +35,9 @@
   }
   
   .dropdown-content:hover{
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2); 
-    transform: scale(1.2);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
     background-color: gray;
     
   }
@@ -48,11 +48,12 @@
     position: absolute;
     background-color: gray;
     width: 180px; 
-    height: 130px;
+    height: 120px;
     font-size: 20px
   }
   
   .dropdown-content a {
+    transition: transform .6s;
     color: black;
     padding: 14px 14px;
     text-decoration: none;
@@ -60,7 +61,11 @@
   }
   
   .dropdown-content a:hover {background-color: dark;opacity: 1;
-    box-shadow: 6px 3px 25px 6px rgba(0, 0, 0, 0.363);}
+    box-shadow: 6px 3px 25px 6px rgba(0, 0, 0, 0.363);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+  }
   
   .dropdown:hover .dropdown-content {display: block;
   }
@@ -73,6 +78,7 @@
   }
   body{background-image: url(backgrnd.jpg);
     background-size: 100% 100%; 
+    
    
   }
   
@@ -136,21 +142,21 @@
 
      
       .accordion:hover{opacity: 1;
-        box-shadow: 6px 3px 2px 6px rgb(87, 87, 94);
+        
         -ms-transform: scale(1.2);
         -webkit-transform: scale(1.2); 
         transform: scale(1.2);
       }
       .accordion {
-       
-        transition: transform .1s;
+        border-radius: 4px;
+        transition: transform .4s;
         background-color: rgb(49, 51, 61);
         color: white;
         cursor: pointer;
         box-shadow: 6px 3px 15px 6px rgb(12, 12, 12);
         max-width: 400px;
         height:60px;
-        font-size: larger;
+        font-size: large;
         border: none;
         text-align: center;
         outline: none;
@@ -164,7 +170,7 @@
    color: White;
    text-align: center;
    color: yellow;
-   text-shadow: #b90292;
+   text-shadow: 3px 4px 9px black;
    font-size: 70px;
    width: 300px;
    position:fixed; top:250px;
