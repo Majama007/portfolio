@@ -43,8 +43,23 @@
          
         }
       h1{color: white;
-      font-size: 25px;}
-      
+      font-size: 25px;
+    }
+    h1:after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: rgb(172, 172, 172);
+	left: 50%;
+	bottom: 205px;
+	transition: all 0.9s ease-in-out;
+}
+    
+.card:hover h1:after {
+	width: 86%;
+	left: 12px;
+}
       p{color: white;}
        .title {
           color: grey;
@@ -116,7 +131,7 @@ hr{position: fixed;top: 390px;}
  
 
   <h2>Welcome, <br> I am  Lutho.<hr><h/2>
-
+      
 
    
 

@@ -33,7 +33,7 @@
         
           box-shadow: 0 4px 8px 0 black;
           max-width: 300px;
-          height:350px;
+          height:390px;
           margin: auto;
           text-align: center;
           background: dark;
@@ -42,6 +42,22 @@
       h1{color: white;
       font-size: 25px;}
       
+      h1:after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: rgb(172, 172, 172);
+	left: 50%;
+	bottom: 165px;
+	transition: all 0.9s ease-in-out;
+}
+    
+.card:hover h1:after {
+	width: 86%;
+	left: 12px;
+}
+
       p{color: white;}
        .title {
           color: grey;
@@ -70,7 +86,10 @@
           color: black;
         }
         
-     
+        img{ height: 250px;
+     width :250px;
+     border: solid white;  
+        }    
 img:hover{
   box-shadow: 6px 3px 25px 6px black;
   border: solid white;
@@ -195,15 +214,17 @@ img:hover{
          ">
         
         <h1>Lutho Majama</h1>
-        <p class="title">Web Develper</p>
-        <p>Codetelligent</p>
+        <p class="title">UI/UX Designer</p>
+        <p>@Codetelligent</p>
         <div style="margin: 24px 0;">
           <a href="https://www.facebook.com/luthomajama.majamalutho" class="fa fa-facebook"></a>
           <a href="https://www.linkedin.com/in/lutho-miles-majama-5763a023b/" class="fa fa-linkedin"></a>
           <a href="https://www.instagram.com/majamalutho/" class="fa fa-instagram"></a>
           <a href="#" class="fa fa-google"></a>
         </div>
-    
+        <button 
+        class="accordion">Download CV 
+       </button>
         
       </div>
 
