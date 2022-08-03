@@ -89,11 +89,11 @@
   }
   .fa {
   
-   width: 6px;
+   width: 5px;
    height: 21px;
    
-   transition: transform .2s;
-   opacity: 1;
+   transition: transform .3s;
+   opacity: 0.8;
     text-decoration: none;
     margin: 1px;
     border-radius: 100%
@@ -111,6 +111,7 @@
   .fa-facebook:hover{
     box-shadow: 3px 3px 25px 6px #3B5998;}
   .fa-facebook {
+    
     background: #3B5998;
     color: white;
     }

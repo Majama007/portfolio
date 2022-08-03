@@ -24,9 +24,9 @@
   }
   .dropdown:hover{
     
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2); 
-    transform: scale(1.2);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
 }
   .dropdown { transition: transform .6s;
     position: relative;
@@ -91,11 +91,11 @@
   }
   .fa {
   
-   width: 6px;
+   width: 5px;
    height: 21px;
    
-   transition: transform .2s;
-   opacity: 1;
+   transition: transform .3s;
+   opacity: 0.8;
     text-decoration: none;
     margin: 1px;
     border-radius: 100%
@@ -144,19 +144,19 @@
     
 
      
-      .accordion:hover{opacity: 1;
+      .accordion:hover{
         
         -ms-transform: scale(1.1);
         -webkit-transform: scale(1.1); 
         transform: scale(1.1);
       }
       .accordion {
-       
+      
         transition: transform .1s;
         background-color: rgb(49, 51, 61);
-        color: white;
+        color: rgba(255, 255, 255, 0.795);
         cursor: pointer;
-        box-shadow: 6px 3px 15px 6px rgb(12, 12, 12);
+        box-shadow: 3px 1px 15px 2px rgb(12, 12, 12);
         max-width: 400px;
         height:60px;
         
